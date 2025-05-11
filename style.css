@@ -1,0 +1,98 @@
+body {
+  background-color: #0b0c2a;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.title {
+  color: #00f5ff;
+  text-align: center;
+  text-shadow: 0 0 10px #00f5ff;
+}
+
+.clock {
+  float: right;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px #333;
+  margin-bottom: 20px;
+}
+
+.box.message {
+  background: #111a3c;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px #00f5ff;
+}
+
+a {
+  color: #00e1ff;
+  text-decoration: underline;
+}
+
+.audio-box {
+  background: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.test-box {
+  background: #1a1c3c;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #191a2f;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.text {
+  color: #00f5ff;
+}
+
+.btn {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  box-shadow: 0 0 10px #00f5ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn:active {
+  background-color: #00d9ff;
+  transform: scale(0.95);
+}
+
+.description {
+  background-color: #00e6f7;
+  font-weight: bold;
+}
+
+.owner {
+  background-color: #27f76c;
+  font-weight: bold;
+}
+
+.code {
+  background-color: #3c4fff;
+}
+
+.get {
+  background-color: #566bff;
+                   }
+    
